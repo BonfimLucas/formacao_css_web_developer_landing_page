@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Raleway", serif;
+    background-color: black;
+}
+
+#first-content{
+
+    height: 605px;
+
+    background-image: url("../images/banner.png");
+    background-color: #071b23;
+    background-size: cover;
+
+    text-align: center;
+
+    box-shadow: inset 0px 10px 80px 30px black;
+}
+
+#first-content img{
+    width: 248px;
+    height: 214px;
+    position: relative;
+    top: 27px;
+
+    background: 268px 268px;
+    background-color: rgba(0, 0, 0, 0.27);
+    padding: 30px;
+
+    border-radius: 50%;
+    
+}
+
+#first-content h2{
+    font-weight: 900;
+    font-size: 2.5em;
+
+    background-image: linear-gradient(#33A8DB, #1472B7);
+    -webkit-backdrop-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+
+#first-content p{
+    font-weight: 400;
+    color: white;
+    font-size: 1.3em;
+}
+
+#first-content button{
+    width: 326px;
+    height: 57px;
+
+    font-weight: 800;
+    font-size: 1em;
+    color: #31A8DD;
+
+    background-color: transparent;
+
+    border: 3px solid;
+    border-image: linear-gradient(to bottom, #3BA1CD, #1572B7) 1;
+
+    cursor: pointer;
+}
+
+#first-content button:hover{
+    background-color: #31A8DD;
+    color: white;
+    transition: 0.6s;
+}
+
+#second-content{
+    text-align: center;
+    padding: 10px;
+    height: 500px;
+    
+}
+
+#second-content h2{
+    color: #33A8DB;
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 93px;
+}
+
+#second-content p{
+    color: white;
+    font-size: 1em;
+}
+
+.modules{
+    background-color: #252525;
+    
+    border: 1px solid #33A8DB;
+    border-radius: 57px;
+    margin: 20px auto;
+
+    width: 535px;
+    height: 51px;
+
+    text-align: center;
+
+    
+}
+
+.modules a{
+    text-decoration: none;
+    color: #33A8DB;
+}
+
+#third-content{
+    background-image: url("../images/woman-code.png");
+    height: 429px;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#third-content h2{
+    font-size: 2.5em;
+    font-weight: 900;
+    color: white;
+
+    text-shadow: 4px 1px 1px #33A8DB;
+
+    width: 244px;
+    text-align: right;
+
+    position: relative;
+    left: 196px;
+
+    top: 111px;
+    height: 141px;
+}
+
+#fourth-content{
+    padding: 20px;
+}
+
+#fourth-content h2{
+    color: #33A8DB;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+}
+
+#fourth-content img{
+    position: relative;
+    width: 659px;
+    height: 429px;
+    left: 390px;
+}
+
+#fourth-content p{
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    margin: 40px 0px;
+
+}
+
+footer{
+    text-align: center;
+    height: 170px;
+    background-image: linear-gradient(#33A8DB00, #33A8DB33, #33A8DB33);
+}
+
+footer img{
+    height: 2.8em;
+    width: 19.4em;
+    position: relative;
+    top: 52px;
+}
+
+footer p{
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+    position: relative;
+    top: 40px;
+}
+
+footer p a{
+    color: #31A8DD;
+    text-decoration: none;
+}
