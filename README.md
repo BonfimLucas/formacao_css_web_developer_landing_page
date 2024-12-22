@@ -10,7 +10,7 @@
 <h2>The result:</h2>
 
 <div  style="text-align: center; padding: 10px;">
-<img src="assets/images/thresult.png">
+<img src="assets/images/result.png">
 </div>
 
 
